@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width,initial-scale= 1.0">
+    <title>My Projects</title>
+    <style>
+        body{
+            margin : 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .Project1, .Project2{
+            width: 60%;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) ;
+            margin-bottom: 25px;
+            margin: 30px auto 35px;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .image-box {
+            width: 45%;
+            background-color: #f4f4f4;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        .image-box img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        .image-box figcaption{
+            font-style: italic;
+            font-weight: bold;
+        }
+        
+        .Project2 .image-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .Project2 .image-container img {
+            width: 50%;
+            height: auto;
+            margin: 10px;
+            max-height: 400px;
+        }
+        .image-container figure{
+            text-align: center;
+            margin: 10px;
+        }
+        
+        
+        .image-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .image-container img{
+            width: 50%;
+            height: auto;
+            margin: 10px;
+            max-height: 300px;
+        }
+        .image-container figcaption{
+            font-style: italic;
+        }
+        .image-container figure:nth-child(1) figcaption,
+        .image-container figure:nth-child(2) figcaption,
+        .image-container figure:nth-child(3) figcaption,
+        .image-container figure:nth-child(4) figcaption {
+            font-weight: bold;
+        }
+        .side-by-side{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .larger-image-box{
+            width: 60%;
+        }
+        .larger-image-box img{
+            height: 300px;
+        }
+        .dashed-underline{
+            border-bottom: 2px dashed blue;
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+<body>
+    <div class = "Project1">
+        <h1 style="font-size: 30px; color: blue; font-family: 'Times New Roman';">MAIN PROJECT - <strong style="color: red;"><u class = "dashed-underline"> Smart Helmet With Multi Features</u></strong></h1>
+        <h2 style="font-size: 24px; color: blueviolet; font-family: 'Georgia';">Description</h2>
+        <p style="font-size: 20px; color: black; font-family: sans-serif;">The project aims to design and implement a smart helmet with advanced features 
+            like alcohol detection,accident identification, location and panic emergency alert to enhance rider safety.</p>
+        <div class = " side-by-side  image-container">
+            <div class="image-box">
+              <figure>
+                <img src="MainProjectOutput1.png" alt="Main Project Output 1">
+                <figcaption>Figure 1 - Helmet Not Detected</figcaption>
+              </figure>
+            </div>
+            <div class="image-box">
+            <figure> 
+            <img src="MainProjectOutput2.jpg" alt="Main Project Output 2">
+            <figcaption>Figure 2 -Helmet Detected </figcaption>
+            </figure>
+        </div>
+    </div>
+        <div class="image-container">
+            <div class = "image-box">
+            <figure>
+            <img src="MainProjectOutput3.png" alt="Main Project Output 3">
+            <figcaption>Figure 3 - Emergency SOS Activated</figcaption>
+            </figure>
+            </div>
+            <div class = "image-box">
+            <figure>
+            <img src="MainProjectOutput4.png" alt="Main Project Output 4">
+            <figcaption>Figure 4 - Accident Detected</figcaption>
+            </figure>
+        </div>
+            </div>
+    </div>
+    <BR><br>
+        <div class = "Project2">
+            <h1 style="font-size: 30px; color: blue; font-family: 'Times New Roman';">MINI PROJECT - <strong style="color: red;"><u class=" dashed-underline">Real Time Clock Using DS1307</u></strong></h1> 
+            <h2 style="font-size: 24px; color: blueviolet; font-family: 'Georgia';">Description</h2>
+            <p style="font-size: 20px; color: black; font-family: sans-serif;">The purpose of this project is to run an operation according 
+                to the time or date and calculation of the time and date shouldn’t 
+                stop when the system shutdown. For this purpose, RTC modules are used.</p>
+
+   
+        <div class = "image-container">
+            <div class="image-box larger - image-box">
+            <figure>
+            <img src="miniprojectoutput.jpg" alt="Mini Project Output">
+            <figcaption>Figure - Displaying Time and Date in LCD </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    </div>
+
+        <center>
+            <br><br>
+        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+        <font size = "6px" >
+            <a href = "Internship.html" target = "_blank">Internship</a>
+        </font>
+    
+        </center>
+
+        
+        
+
+    
+</body>
+</html>
